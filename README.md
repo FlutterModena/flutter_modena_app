@@ -1,2 +1,2 @@
-# flutter_modena_app
+# Flutter Modena App
 Simple hello world crossplatform!
