@@ -1,12 +1,13 @@
-import 'package:flutter/material.dart';
 import 'dart:io';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    String osType = Platform.operatingSystem;
+    String osType = kIsWeb ? "Web" : Platform.operatingSystem;
 
     return Scaffold(
       appBar: AppBar(
